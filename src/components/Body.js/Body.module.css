@@ -1,0 +1,35 @@
+.tools{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.tools button{
+    display: flex;
+    gap: 8px;
+   padding: 10px 30px;
+   margin-bottom: 20px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: none;
+   background-color: #6C63FF;
+   font-weight: 500;
+   color: white;
+}
+
+.color{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 197, 127);
+}
+
+.body{
+    display: flex;
+}
+
+.colorpick .active{
+border: 2px solid black;
+}
